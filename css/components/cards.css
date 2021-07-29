@@ -1,0 +1,129 @@
+
+
+.banner {
+  /* background-image: url(""); */
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(199, 211, 228);
+  padding-left: 50px;
+  padding-top: 60px;
+  font-size: 40px;
+  transition: all 0.3s ease;
+  margin: 0px;
+}
+
+.banner h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(199, 211, 228);
+  padding-left: 50px;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  font-size: 23px;
+  opacity: .7;
+  transition: all 0.3s ease;
+}
+
+.banner_h1:hover {
+  color: #F98948;
+}
+
+.banner_h3:hover {
+  color: #F98948;
+}
+
+.btn-yours {
+    color: rgb(88, 138, 207);
+    padding: 12px 25px;
+    margin-left: 50px;
+    border-radius: 100px;
+    font-weight: bold;
+    background: rgb(181, 200, 226);
+    /* transition: background 0.3s ease; */
+    transition: all 0.4s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+.btn-yours:hover {
+  color: #F98948;
+  padding: 13px 26px;
+  background: rgb(217, 224, 233);
+  font-size: 25px;
+}
+
+.how_it_works {
+  background-color: rgb(202, 212, 226);
+  height: 600px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.how_it_works h2 {
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 0.8;
+  margin: 0px;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+
+.flexbox-container{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.flexbox {
+  font-size: 18px;
+  opacity: 0.8;
+  background-color: whitesmoke;
+  height: 350px;
+  width: 270px;
+  text-align: center;
+  margin: 0px;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+  transition: all 0.6s ease;
+}
+.flexbox:hover{
+  background-color: #f7d0ba;
+  color: aliceblue;
+  height: 350px;
+  width: 275px;
+  border-radius: 15px;
+  background-image: url(../../images/jose-pablo-dominguez-a14l5pHzf90-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.flexbox i:hover {
+  padding-top: 20px;
+  font-size: 60px;
+  padding-bottom: 5px;
+  opacity: 0.9;
+}
+.flexbox p:hover {
+  font-size: 18px;
+  padding-bottom: 5px;
+  opacity: 0.9;
+  color: white;
+}
+
+.flexbox i {
+  padding-top: 20px;
+  font-size: 60px;
+  padding-bottom: 5px;
+  opacity: 0.4;
+}
+
+.flexbox p {
+  font-size: 18px;
+  padding-bottom: 5px;
+  opacity: 0.5;
+}
